@@ -10,12 +10,13 @@ ERROR -> 4
 CRITICAL ->4
 """
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 if __name__ == '__main__':
 
     logging.debug('>>> Ejecutando')
-    pokemons = pokeapi()
-    logging.debug(pokemons)
 
-    logging.debug('Finalizando')    
+    pokemons = pokeapi()
+    # logging.debug(pokeapi.__doc__)
+
+    logging.debug('>>> Finalizando')
