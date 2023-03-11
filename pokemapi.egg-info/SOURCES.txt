@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+pokemapi/__init__.py
+pokemapi/__main__.py
+pokemapi/config.py
+pokemapi/pokemon.py
+pokemapi.egg-info/PKG-INFO
+pokemapi.egg-info/SOURCES.txt
+pokemapi.egg-info/dependency_links.txt
+pokemapi.egg-info/requires.txt
+pokemapi.egg-info/top_level.txt
